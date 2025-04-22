@@ -1,39 +1,119 @@
-body {
-    font-family: 'Georgia', serif;
-    background-color: #f4f4f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strona Prawnicza</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-h1, h2 {
-    text-align: center;
-    color: #2c3e50;
-}
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-}
+    header {
+      background-color: #004d75;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-.card {
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin: 20px 0;
-    padding: 20px;
-    transition: transform 0.3s ease;
-}
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
 
-.card:hover {
-    transform: translateY(-5px);
-}
+    section {
+      margin: 20px 0;
+    }
 
-.card img,
-.card video {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 15px;
-}
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
 
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #004d75;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .video-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .video-section iframe {
+      width: 80%;
+      height: 400px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    button {
+      background-color: #004d75;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #003b5c;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Witaj na stronie prawnej</h1>
+  </header>
+
+  <section>
+    <h2>Obrazki związane z prawem</h2>
+    <img src="https://images.pexels.com/photos/1642886/pexels-photo-1642886.jpeg" alt="Sala sądowa">
+    <img src="https://images.pexels.com/photos/1222517/pexels-photo-1222517.jpeg" alt="Kodeksy prawne">
+    <img src="https://images.unsplash.com/photo-1602109248596-c38716d40844" alt="Abstrakcyjna grafika">
+  </section>
+
+  <section class="video-section">
+    <h2>Filmy edukacyjne</h2>
+    <div>
+      <iframe src="https://www.youtube.com/embed/kDFkfuDdI1w" title="Jak działa system prawny?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+      <iframe src="https://www.youtube.com/embed/6g7R2Vnq1fI" title="Wprowadzenie do prawa cywilnego" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Strona Prawna</p>
+  </footer>
+</body>
+</html>
+   
