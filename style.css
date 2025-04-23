@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f2f5fa;
+    /*background-color: #f2f5fa; - temporarily off to test style.css*/
     background-color: #ffffff;
     color: #2c3e50;
 }
