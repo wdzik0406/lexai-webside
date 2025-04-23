@@ -2,8 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /*background-color: #f2f5fa; - temporarily off to test style.css*/
-    background-color: #ffffff;
+    background-color: #f2f5fa;
     color: #2c3e50;
 }
 
@@ -26,16 +25,51 @@ header {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+.container-title {
+    text-align: center;
+}
+
+div {
+    align-content: center;
+}
+
 h2 {
     color: #1e3a8a;
     margin-top: 30px;
 }
 
 a {
-    /* color: #2563eb; Comment out temporarily to see if color works for links */
-    color: #00FF00;
+    color: #2563eb;
     text-decoration: none;
 }
+
+video {
+  max-width: 960px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+    display: flex;
+    max-width: 100%;
+    margin: 30px auto;
+    align-items: flex-start;
+  }
+  
+  .left-column {
+    flex: 1;
+  }
+  
+  .left-column img {
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .right-column {
+    flex: 2;
+  }
 
 a:hover {
     text-decoration: underline;
@@ -49,11 +83,3 @@ footer {
     margin-top: 40px;
     font-size: 14px;
 }
-
-     
-
-    
-
-    
-
-  
