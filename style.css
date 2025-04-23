@@ -31,7 +31,8 @@ h2 {
 }
 
 a {
-    color: #2563eb;
+    /* color: #2563eb; Comment out temporarily to see if color works for links */
+    color: #00FF00;
     text-decoration: none;
 }
 
